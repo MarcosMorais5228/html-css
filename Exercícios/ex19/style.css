@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1{
+    color: rgb(0, 58, 0);
+}
+h1#principal{
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px black;
+    width: 500px;
+    margin: auto;
+}
+h1.aprender{
+    text-align: center;
+    width: 600px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 5px 5px 30px black;
+}
+h2.basico{
+    background-color: rgba(0, 255, 255, 0.404);
+    width: 250px;
+    border-radius: 10px;
+}
+h2.intermediario{
+    background-color: rgba(255, 255, 0, 0.418);
+    width: 250px;
+    border-radius: 10px;
+}
+h2.avancado{
+    background-color: rgba(255, 0, 0, 0.404);
+    width: 250px;
+    border-radius: 10px;
+}
+p{
+    width: 600px;
+}

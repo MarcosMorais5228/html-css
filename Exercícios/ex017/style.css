@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, rgb(0, 0, 219), rgb(0, 0, 190), rgb(0, 0, 136));
+}
+div{
+    font: normal 1em arial, verdana, serif;
+    text-align: left;
+    text-align: justify;
+    background-color: orange;
+    color: blue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(206, 134, 0);
+    width: 600px;
+    padding: 5px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    
+}
+p{
+    text-indent: 30px;
+}

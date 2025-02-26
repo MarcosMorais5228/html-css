@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="shortcut icon" href="../logocss3.png" type="image/x-icon">
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightgrey;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+        div > p { 
+        display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: rgb(255, 255, 255);
+            
+            
+        }
+        div:hover{
+            background-color: rgb(128, 128, 128);
+            box-shadow: 5px 5px 40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <a href="hover.html" target="_self" rel="prev">
+        <div>01
+            <p>SE CLICAR AQUI, VAI PARA OUTRA PÁGINA</p>
+        </div>
+    </a>
+    <div>02</div>
+    <div>03</div>
+</body>
+</html>
