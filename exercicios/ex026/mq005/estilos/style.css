@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -19,7 +20,7 @@ header h1{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu ul{
@@ -58,4 +59,17 @@ article p{
     text-align: justify;
     margin-bottom: 10px;
     text-indent: 20px;
+}
+
+#burguer{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#burguer:hover{
+    background-color: white;
+    color: black;
 }
