@@ -30,11 +30,11 @@ section#conteiner2{
 }
 
 div.txt{
-    flex: 1 0 300px;
+    flex: 1 0 50vw;
 }
 
 div.media{
-    flex: 1 0 400px;
+    flex: 1 0 50vw;
 }
 
 div.media img,iframe{
