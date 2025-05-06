@@ -11,7 +11,8 @@ html, body{
 }
 section{
     text-align: justify;
-    padding: 20px;
+    padding: 10px 20px;
+
 }
 section.FB{
     background-color: rgb(209, 209, 209);
