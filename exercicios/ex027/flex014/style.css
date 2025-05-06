@@ -27,6 +27,7 @@ section#conteiner2{
 
 div.txt{
     flex: 1 0 250px;
+    padding-right: 20px;
 }
 
 div.media{
@@ -36,7 +37,6 @@ div.media{
 div.media img,iframe{
     display: block;
     margin: auto;
-    padding: 10px 20px;
 }
 
 
