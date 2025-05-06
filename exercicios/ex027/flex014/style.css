@@ -11,8 +11,6 @@ html, body{
 }
 section{
     text-align: justify;
-    padding: 10px 20px;
-
 }
 section.FB{
     background-color: rgb(209, 209, 209);
@@ -44,3 +42,6 @@ div.media img,iframe{
     padding: 10px 20px;
 }
 
+div{
+    padding: 10px 20px;
+}
