@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    text-align: justify;
+    padding: 20px;
+}
+section.FB{
+    background-color: rgb(209, 209, 209);
+}
+
+section#conteiner1{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+section#conteiner2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div.txt{
+    flex: 1 0 400px;
+}
+
+div.media{
+    flex: 1 0 400px;
+}
+
+div.media img,iframe{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+}
+
